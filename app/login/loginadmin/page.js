@@ -1,3 +1,8 @@
+export const generateMetadata = async ({ params }) => {
+  return {
+    title: "Admin Login",
+  };
+};
 const LoginAdmin = () => {
   return (
     <div>
